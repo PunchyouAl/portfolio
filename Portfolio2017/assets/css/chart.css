@@ -1,0 +1,88 @@
+#chart {
+  width: 51%;
+  height: 300px;
+  margin: 30px auto 0;
+  display: block;
+}
+#chart #numbers {
+  width: 50px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: left;
+}
+#chart #numbers li {
+  text-align: right;
+  padding-right: 1em;
+  list-style: none;
+  height: 29px;
+  border-bottom: 1px solid #444;
+  position: relative;
+  bottom: 30px;
+}
+#chart #numbers li:last-child {
+  height: 30px;
+}
+#chart #numbers li span {
+  color: #eee;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+#chart #bars {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+#chart #bars li {
+  display: table-cell;
+  width: 78px;
+  height: 300px;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+}
+#chart #bars li .bar {
+  display: block;
+  width: 80px;
+  background: transparent;
+  border:#b5ff00 solid 2px;
+  position: absolute;
+  bottom: 0;
+  padding:20px;
+}
+
+
+#chart #bars li span {
+  color: #eee;
+  width: 100%;
+  position: absolute;
+  bottom: -5em;
+  right: 16px;
+  left: 0;
+  text-align: right;
+}
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-45deg);
+
+/* Firefox */
+-moz-transform: rotate(-45deg);
+
+/* IE */
+-ms-transform: rotate(-45deg);
+
+/* Opera */
+-o-transform: rotate(-45deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
