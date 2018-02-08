@@ -41,6 +41,28 @@
 	border-radius:0px!important;
 }
 
+.modal-lg {
+
+	width:100%!important;
+
+}
+
+.modal-dialog {
+
+	margin:0px;
+
+}
+
+.fa-times-circle {
+	color:#141e27;
+}
+
+.modal-header button {
+
+	box-shadow: none!important;
+	cursor:pointer;
+
+}
 
 /* Containers */
 
@@ -344,7 +366,7 @@
 	background-color: #111d27;
     z-index: 22;
     position: fixed;
-    width: 20vw;
+    width: 21vw;
     left:40vw;
     height: 100vh;
 	border-bottom:#ffffff solid 3px;
@@ -355,7 +377,7 @@
     z-index: 23;
     position: fixed;
     left: 0;
-    width: 20vw;
+    width: 21vw;
     height: 100vh;
     border-bottom:#ffffff solid 3px;
 	}
@@ -365,7 +387,7 @@
     z-index: 23;
     position: fixed;
     left:20vw;
-    width: 20vw;
+    width: 21vw;
     height: 100vh;
     border-bottom:#ffffff solid 3px;
 	}
@@ -375,7 +397,7 @@
     z-index: 23;
     position: fixed;
     right:20vw;
-    width: 20vw;
+    width: 21vw;
     height: 100vh;
     border-bottom:#ffffff solid 3px;
 	}
@@ -385,7 +407,7 @@
     z-index: 23;
     position: fixed;
     right:0;
-    width: 20vw;
+    width: 21vw;
     height: 100vh;
     border-bottom:#ffffff solid 3px;
 	}
@@ -488,6 +510,7 @@
     	"a2 m s o n";
 	}
 
+
 	.letter {
 		font-family: 'Roboto Mono', monospace;
 		font-size: 3rem;
@@ -562,6 +585,15 @@
     	bottom: 0;
     	width: 500px;
     	height: 250px;
+	}
+
+	@media screen and (max-width: 580px ) {
+		
+	.logoTop {
+    	width: 200px;
+    	height: 120px;
+	}
+
 	}
 
 	.image {
@@ -990,10 +1022,6 @@
 			}
 
 		/* Header */
-
-			#header {
-				padding: 8em 3em 8em 3em ;
-			}
 
 		/* Footer */
 
