@@ -364,7 +364,7 @@
 	.pre {
 
 	background-color: #111d27;
-    z-index: 22;
+    z-index: 24;
     position: fixed;
     width: 21vw;
     left:40vw;
@@ -415,12 +415,13 @@
 	.pre .loader {
 	position: absolute; 
 	top: 0;
-  	left: 0;
+  	left: -57;
   	bottom: 0; 
   	right: 0;
   	margin: auto; 
   	width: 100px; 
   	height: 100px;
+  	z-index:40;
 	}
 
 /* Section/Article */
@@ -991,6 +992,7 @@
 
 				.main.style2 {
 					background-attachment: scroll;
+					padding: 4em 0 7em 0 ;
 				}
 
 		/* Header */

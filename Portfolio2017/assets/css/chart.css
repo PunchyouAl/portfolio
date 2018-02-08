@@ -4,6 +4,16 @@
   margin: 30px auto 0;
   display: block;
 }
+
+@media screen and (max-width: 991px) {
+
+  #chart {
+  width: 100%;
+
+}
+
+}
+
 #chart #numbers {
   width: 50px;
   height: 100%;
