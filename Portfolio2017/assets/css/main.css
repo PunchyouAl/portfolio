@@ -364,7 +364,7 @@
 	.pre {
 
 	background-color: #111d27;
-    z-index: 22;
+    z-index: 27;
     position: fixed;
     width: 21vw;
     left:40vw;
@@ -415,7 +415,7 @@
 	.pre .loader {
 	position: absolute; 
 	top: 0;
-  	left: 0;
+  	left: -40px;
   	bottom: 0; 
   	right: 0;
   	margin: auto; 
