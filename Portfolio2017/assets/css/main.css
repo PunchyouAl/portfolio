@@ -364,11 +364,7 @@
 	.pre {
 
 	background-color: #111d27;
-<<<<<<< HEAD
-    z-index: 24;
-=======
     z-index: 27;
->>>>>>> 31c4387c63c95c1dcbf162fa02cad8b103828dd4
     position: fixed;
     width: 21vw;
     left:40vw;
@@ -419,17 +415,12 @@
 	.pre .loader {
 	position: absolute; 
 	top: 0;
-<<<<<<< HEAD
-  	left: -57;
-=======
   	left: -40px;
->>>>>>> 31c4387c63c95c1dcbf162fa02cad8b103828dd4
   	bottom: 0; 
   	right: 0;
   	margin: auto; 
   	width: 100px; 
   	height: 100px;
-  	z-index:40;
 	}
 
 /* Section/Article */
@@ -1026,7 +1017,6 @@
 
 				.main.style2 {
 					background-attachment: scroll;
-					padding: 4em 0 7em 0 ;
 				}
 
 		/* Header */
