@@ -364,7 +364,11 @@
 	.pre {
 
 	background-color: #111d27;
+<<<<<<< HEAD
     z-index: 24;
+=======
+    z-index: 27;
+>>>>>>> 31c4387c63c95c1dcbf162fa02cad8b103828dd4
     position: fixed;
     width: 21vw;
     left:40vw;
@@ -415,7 +419,11 @@
 	.pre .loader {
 	position: absolute; 
 	top: 0;
+<<<<<<< HEAD
   	left: -57;
+=======
+  	left: -40px;
+>>>>>>> 31c4387c63c95c1dcbf162fa02cad8b103828dd4
   	bottom: 0; 
   	right: 0;
   	margin: auto; 
@@ -772,6 +780,8 @@
 
 /* Main */
 
+
+
 	.portfolio-section {
 		padding-bottom: 20px;
 	}
@@ -783,8 +793,30 @@
 }
 }
 
+
+.portfolio-item-header {
+	font-size: 62px; 
+	padding-bottom: 61px; 
+	padding-top: 28px;
+}
+
+.portfolio-copy {
+	text-align: left;
+	padding-top: 93px;
+}
+
 #portfolio-img {
 	max-width:100%;
+}
+
+.grey-band {
+	width:100%;
+	background-color: #f3f3f3;
+}
+
+.phone {
+	width:18%;
+	height: auto;
 }
 
 	.main {
@@ -818,6 +850,8 @@
 			.main.style2 header.major:after {
 				background: #ffffff;
 			}
+
+
 
 /* Header */
 
@@ -1090,10 +1124,6 @@
 			#header {
 				padding: 4em 3em 4em 3em ;
 			}
-
-				#header .actions {
-					margin: 8em 0 0 0;
-				}
 
 		/* Footer */
 
