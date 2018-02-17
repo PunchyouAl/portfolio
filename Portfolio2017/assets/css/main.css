@@ -837,7 +837,9 @@ button:disabled,
     width: 100vw;
     grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: 50% 50%;
-    grid-template-areas: "one two three" "four five six";
+    grid-template-areas: 
+    "one two three" 
+    "four five six";
 }
 
 .portfolio-item {
