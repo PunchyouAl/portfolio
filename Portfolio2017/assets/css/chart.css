@@ -8,7 +8,7 @@
 @media screen and (max-width: 991px) {
 
   #chart {
-  width: 100%;
+  width: 87%;
 
 }
 
@@ -65,6 +65,15 @@
   position: absolute;
   bottom: 0;
   padding:20px;
+}
+
+@media screen and (max-width: 991px) {
+
+  #chart #bars li .bar {
+  width: 53px;
+
+}
+
 }
 
 
