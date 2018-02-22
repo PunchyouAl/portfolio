@@ -118,13 +118,6 @@
         });
     };
 
-    // Plugin default options
-    $.fn.directionalHover.defaults = {
-        overlay: "dh-overlay",
-        easing: "swing",
-        speed: 400
-    };
-
 }(jQuery));
 
 $('.portfolio-item').directionalHover({
