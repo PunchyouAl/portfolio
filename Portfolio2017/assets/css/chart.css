@@ -67,6 +67,14 @@
   padding:20px;
 }
 
+@media screen and (max-width:480px) {
+
+  #chart {
+    padding: 0 0 0 10px;
+  }
+
+}
+
 
 #chart #bars li span {
   color: #eee;
