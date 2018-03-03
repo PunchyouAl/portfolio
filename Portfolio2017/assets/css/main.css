@@ -990,6 +990,16 @@ button:disabled,
     transition: 0.5s;
 }
 
+.portfolio-subtitle {
+    opacity:0;
+    transition-delay: 1s;
+}
+
+.portfolio-subtitle-active {
+    opacity:1;
+    transition-delay: 0.2s;
+}
+
 #portfolio-1 {
     grid-area: one;
     background-image: url("../../images/pic-01.png");
