@@ -22,4 +22,4 @@ $(".tilty").hover(
         $(this).find(".portfolio-title-divider-active").addClass("portfolio-title-divider").removeClass("portfolio-title-divider-active");
         $(this).find(".portfolio-title-sub-active").addClass("portfolio-title-sub").removeClass("portfolio-title-sub-active");
         $(this).find(".portfolio-subtitle").addClass("portfolio-subtitle-active").removeClass("portfolio-subtitle");
-    });
+    }); 

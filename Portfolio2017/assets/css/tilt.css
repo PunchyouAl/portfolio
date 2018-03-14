@@ -11,23 +11,38 @@
     position: relative;
     overflow:hidden;
     background-color: #b5ff00;
+    cursor:crosshair;
 }
 
 #tilty-1 {
-    left:0px;
-    bottom:50px;
-    width:350px;
-    height:420px;
+    left: 0%;
+    top: 280px;
+    width: 30%;
+    height: 560px;
 }
 
 #tilty-2 {
-    left: 453px;
-    bottom: 470px;
-    width:480px;
-    height:480px;
+    left: 40%;
+    bottom: 465px;
+    width: 60%;
+    height: 600px;
 }
 
-.color-swipe-white, .color-swipe-white2 {
+#tilty-3 {
+    left: 0%;
+    top: -210px;
+    width: 60%;
+    height: 600px;
+}
+
+#tilty-4 {
+    left: 70%;
+    bottom: 960px;
+    width: 30%;
+    height: 560px;
+}
+
+.color-swipe-white, .color-swipe-white2, .color-swipe-white3, .color-swipe-white4 {
     pointer-events: none;
     background-color: #ffffff;
     height: 100%;
@@ -42,7 +57,7 @@
     z-index: 7;
 }
 
-.color-swipe-blue, .color-swipe-blue2 {
+.color-swipe-blue, .color-swipe-blue2, .color-swipe-blue3, .color-swipe-blue4 {
     pointer-events: none;
     background-color: #111d27;
     height: 100%;

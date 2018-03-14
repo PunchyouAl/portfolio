@@ -139,7 +139,12 @@ body {
     }
 }
 
-
+#three {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    height: 1660px;
+    overflow: hidden;
+}
 
 
 /* Grid */
@@ -900,6 +905,11 @@ button:disabled,
         grid-template-rows: auto auto auto auto auto auto;
         grid-template-areas: "one" "two" "three" "four" "five" "six";
     }
+}
+
+.portfolio-link {
+    position: relative;
+    bottom: 328px;
 }
 
 .portfolio-item {
